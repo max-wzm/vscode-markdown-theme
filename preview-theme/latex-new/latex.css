@@ -103,7 +103,7 @@ body p {
 
 @media print {
   @page {
-    margin: 2.54cm 3.18cm !important;
+    margin: 1.6cm 1.6cm !important;
     size: A4;
   }
 }
@@ -255,6 +255,7 @@ details {
 
 /* 居中文字 */
 center {
+  font-size: large;
   font-family: 'Latin Modern Roman 10', 'LM Roman 10', 'Times New Roman', Arial, 'KaiTi', 'Source Han Serif SC', 'simsun', sans-serif;
 }
 
@@ -532,4 +533,9 @@ h5.md-focus.md-heading:before {
   content: counter(h2) "."counter(h3) "."counter(h4) "."counter(h5);
   margin-right: 2rem;
 } */
+
+strong {
+  color: #0e78cf;
+  font-weight: 1200;
+}
 
